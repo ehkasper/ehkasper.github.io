@@ -1,0 +1,63 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background: url(/assets/images/bg.jpg) no-repeat center center fixed #000;
+    background-size: cover;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+}
+
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    background: rgba(50, 50, 50, .7);
+    padding: 10px 0;
+}
+    .social-bar a {
+        width: 48px;
+        height: 48px;
+        background-image: url(/assets/images/csg-53a5d5b85603b.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .email {
+        background-position: 0 0;
+    }
+    .facebook {
+        background-position: 0 -98px;
+    }
+    .github {
+        background-position: 0 -196px;
+    }
+    .linkedin {
+        background-position: 0 -294px;
+        margin-right: 10px;
+    }
+    .twitter {
+        background-position: 0 -392px;
+        margin-right: 10px;
+    }
