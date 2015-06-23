@@ -24,6 +24,22 @@ body {
 .highlight {
   margin-bottom: 15px; }
 
+.post-content {
+    width: 60%;
+    margin: 3% auto 0;
+    background: white;
+    padding: 5% 10%;
+    opacity: 0.8;
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+}
+
 footer {
   position: absolute;
   width: 100%;
